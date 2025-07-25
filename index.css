@@ -233,10 +233,10 @@ color: white;
     margin-top: 4px;
 }
 .contain img{
-  max-width: 200px;
-  max-height: 200px;
-  min-width: 100px;
-  min-height: 100px;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 200px;
+  min-height: 200px;
 }
 .text-img{
      display: flex;
@@ -246,17 +246,17 @@ color: white;
     
 }
 .text-col{ 
-text-align: center;
-    max-width: 405px;
-    min-width: 300px;
-    max-height: 200px;
+    text-align: center;
+    max-width: 605px;
+    min-width: 400px;
+    max-height: 300px;
     background-color:#754ef9; 
     color: white;
 }
 .text-img img{
-  max-width: 200px;
-  min-width: 100px;
-  max-height: 200px;
+  max-width: 300px;
+  min-width: 200px;
+  max-height: 300px;
 }
 .contain{
     display: flex;
@@ -264,68 +264,14 @@ text-align: center;
     justify-content: center;
 }
 .contains img{
- max-width: 200px;
-  max-height: 200px;
-  min-width: 200px;
-  min-height: 100px;
+ max-width: 300px;
+  max-height: 300px;
+  min-width: 300px;
+  min-height: 200px;
 }
 .portfolio-section{
   text-align: center;
 }
-
-/* 
-.images1{
-       
-   width: 80px;
-    height: 80px;
-    border-radius: 50%;
- margin-top: 10px;  
-
-}
-.white{
-     background-color:#754ef9;
-    border-radius: 50%;
-    max-width: 100px;
-    height: 100px;
-  margin-left:45%;
-}
-.testimonial-section{
-text-align: center;
-}
-.testimonial{
-   background-color:#754ef9; 
-   box-shadow: 0px 5px 5px;
-  justify-content: center;
-  padding-left: 15px;
- padding-right: 15px;
-}
-
-.texts{
-  text-align: center; 
- 
-  
-   padding-top: 2%;
-   padding: 4%;
- 
-  
-}
-.text1{
-background-color: white;
-} */
-/* .testimonial{
- 
- padding-left: 15px;
-padding-right: 15px;
-background-color: #754ef9;
-}
-.texts{
-
-  
-}
-.text1{
-box-shadow: 0px 5px 5px;
-background-color: white;
-} */
 
 .images1 {
     width: 80px;
@@ -413,7 +359,8 @@ justify-content: center;
 gap: 20px;
 background-color: #754ef9;
 color: white;
-padding-bottom: 3%;
+padding-bottom: 0%;
+font-size: 10px;
 }
 .footer h3{
   padding-right:20%;
@@ -421,16 +368,16 @@ padding-bottom: 3%;
 .pages{
   display: flex;
 justify-content: center;
+margin: 0 auto;
 gap: 20px;
 padding-right: 15%;
-font-size: 15px;
+
 }
 .social{
    display: flex;
 justify-content: center;
 gap: 20px;
-padding-left: 5%;
-font-size: 15px;
+font-size: 10px;
 }
 
 
