@@ -247,7 +247,8 @@ color: white;
 }
 .text-col{ 
     text-align: center;
-    max-width: 605px;
+     max-width: 525px;
+    padding: 40px;
     min-width: 400px;
     max-height: 300px;
     background-color:#754ef9; 
