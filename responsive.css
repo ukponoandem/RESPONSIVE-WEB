@@ -71,41 +71,34 @@ padding-top: 60px;
 }
 
 .main-cards{
-    display: flex;
-    justify-content: center;
     gap: 8px;
     margin: 5%;
 }
 .cards{
-    max-width: 400px;
-    max-height: 400px;
-    min-width: 120px;
-    min-height: 200px;
-    box-shadow: 0px 5px 5px;
-    border-radius: 5px;
-    
+    border-radius: 0px;
+    max-width: 150px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 220px;
+    box-shadow: 0px 3px 3px;
 }
-.cards h3{
-text-align: center;
-font-size: 10px;
+.icons{
+    font-size: 25px;
+    color: #754ef9;
 }
-.cards p{
+ .cards h3{
 text-align: center;
 font-size: 10px;
 }
 .download-btns{
-   padding: 10px; 
-  font-size: 10px;
-  border-radius: 10px;
- 
+   padding: 4px; 
+  font-size: 8px;
 }
+  
 .text-card{
-    padding:  20px;
-}
-.icons{
-    font-size: 55px;
-    color: #754ef9;
-}
+    padding:  10px;
+    font-size: 10px;
+} 
 
 .contain img{
   max-width: 120px;
@@ -125,7 +118,7 @@ font-size: 10px;
   max-width: 120px;
   min-width: 120px;
   max-height: 150px;
-  min-height: 100px;
+    min-height: 100px;
 }
 .contains img{
  max-width: 120px;
@@ -237,8 +230,6 @@ border-radius: 50%;
 .my-text h1{
     font-size: 8px;
 }
-
-
 .container-fluid{
   justify-content: center;
   align-items: center;
@@ -258,22 +249,16 @@ padding-top: 60px;
 .content {
     font-size: 8px;
 } 
-
-
 .main-cards{
-    display: flex;
-    justify-content: center;
-    gap: 3px;
+    gap: 8px;
     margin: 5%;
 }
 .cards{
-   
-    border-color: white;
-    max-width: 600px;
-    max-height: 400px;
-    min-width: 100px;
-    min-height: 170px;
-    text-align: center;
+    border-radius: 0px;
+    max-width: 300px;
+    max-height: 150px;
+    min-width: 50px;
+    min-height: 160px;
     box-shadow: 0px 3px 3px;
     
 }
@@ -281,29 +266,19 @@ padding-top: 60px;
 text-align: center;
 font-size: 10px;
 }
-.cards p{
-text-align: center;
-font-size: 10px;
+.icons{
+  font-size: 15px;
+  font-weight: bold;
 }
 .download-btns{
-
   border: none;
-   padding: 10px; 
-  font-size: 8px;
-  font-weight: bold;
-  border-radius: 10px;
- 
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+   padding: 3px; 
+  font-size: 6px;
 }
 .text-card{
-    padding:  10px;
+    padding:  3px;
+    font-size: 10px;
 }
-.icons{
-    font-size: 20px;
-    color: #754ef9;
-}
-
 .contain img{
   max-width: 100px;
   max-height: 100px;
@@ -316,11 +291,12 @@ font-size: 10px;
     padding: 30px;
     min-width: 100px;
     max-height: 100px;
+    min-height: 80px;
 }
 .text-img img{
   max-width: 100px;
   min-width: 100px;
-  max-height: 170px;
+  max-height: 150px;
   min-height: 100px;
 }
 
