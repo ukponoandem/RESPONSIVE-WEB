@@ -71,16 +71,17 @@ padding-top: 60px;
 }
 
 .main-cards{
-    gap: 8px;
+    gap: 7px;
     margin: 5%;
 }
 .cards{
-    border-radius: 0px;
+     border-radius: 0px;
     max-width: 150px;
-    max-height: 100px;
+    max-height: 140px;
     min-width: 50px;
-    min-height: 200px;
-     box-shadow: 0px 2px 6px gray;
+    min-height: 210px;
+     box-shadow: 0px 0px 2px gray; 
+
 }
 .icons{
     font-size: 25px;
@@ -250,17 +251,16 @@ padding-top: 60px;
     font-size: 8px;
 } 
 .main-cards{
-    gap: 8px;
+    gap: 4px;
     margin: 5%;
 }
 .cards{
-    border-radius: 0px;
+     border-radius: 0px;
     max-width: 300px;
     max-height: 150px;
     min-width: 50px;
-    min-height: 140px;
-    box-shadow: 0px 2px 6px gray;
-    
+    min-height: 150px;
+     box-shadow: 0px 0px 2px gray; 
 }
 .cards h3{
 text-align: center;
