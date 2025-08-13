@@ -72,19 +72,19 @@ padding-top: 60px;
 
 .main-cards{
     gap: 7px;
-    margin: 5%;
+    margin: 2%;
 }
 .cards{
      border-radius: 0px;
-    max-width: 150px;
-    max-height: 140px;
-    min-width: 50px;
-    min-height: 210px;
+    max-width: 300px;
+    max-height: 250px;
+    min-width: 200px;
+    min-height: 280px;
      box-shadow: 0px 0px 2px gray; 
 
 }
 .icons{
-    font-size: 25px;
+    font-size: 35px;
     color: #754ef9;
 }
  .cards h3{
@@ -92,8 +92,9 @@ text-align: center;
 font-size: 10px;
 }
 .download-btns{
-   padding: 4px; 
-  font-size: 8px;
+  margin-top: 10%;
+   padding: 10px; 
+  font-size: 10px;
 }
   
 .text-card{
@@ -257,27 +258,27 @@ padding-top: 60px;
 .cards{
      border-radius: 0px;
     max-width: 300px;
-    max-height: 150px;
-    min-width: 50px;
-    min-height: 150px;
+    max-height: 180px;
+    min-width: 95px;
+    min-height: 180px;
      box-shadow: 0px 0px 2px gray; 
 }
 .cards h3{
 text-align: center;
-font-size: 8px;
+font-size: 10px;
 }
 .icons{
-  font-size: 15px;
+  font-size: 25px;
   font-weight: bold;
 }
 .download-btns{
   border: none;
-   padding: 3px; 
-  font-size: 6px;
+   padding: 5px; 
+  font-size: 8px;
 }
 .text-card{
     padding:  3px;
-    font-size: 7px;
+    font-size: 8px;
 }
 .contain img{
   max-width: 100px;
