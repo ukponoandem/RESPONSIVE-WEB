@@ -5,7 +5,7 @@ body{
 .main1{
 padding-left: 50px;   
 max-width: 140px;
-max-height: 55vh;
+max-height: 50vh;
 min-width:140px ;
 min-height: 50vh;
 background-color: #754ef9;
@@ -21,7 +21,6 @@ color: white;
     max-height: 110px;
     border-radius: 50%;
   border: solid 10px #754ef9 ; 
- 
 }
 
 .two{
