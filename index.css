@@ -3,13 +3,13 @@ body{
     color: black;
 }
 .main1{
-     
-max-width: 600px;
-   max-height: 60vh;
-    min-width:150px ;
-    
-  background-color: #754ef9;
-  color: white;
+padding-left: 50px;   
+max-width: 140px;
+max-height: 55vh;
+min-width:140px ;
+min-height: 55vh;
+background-color: #754ef9;
+color: white;
 }
 .main1 p{
     text-align: center;
@@ -17,64 +17,69 @@ max-width: 600px;
 
 .images{
     display: block;
-    max-width: 120px;
-    height: 120px;
+    max-width: 110px;
+    max-height: 110px;
     border-radius: 50%;
- padding-top: 7%;
- margin-left: 7%;
+  border: solid 10px #754ef9 ; 
  
 }
 
 .two{
-background-color:#754ef9;
-    padding: 5px;
-    max-width: 200px;
-height: 200px;
+
+ border: solid 6px #754ef9; 
 border-radius: 50%;
 position: absolute;
 
 
+
 }
 .main2{
-padding: 30px;
-background-color:white;
-max-width: 300px;
-height:140px;
+ border: solid 30px white; 
+ 
+/* background-color: white;
+padding: 40px; */ 
+
 border-radius: 50%; 
 
 
 } 
 
-.three{
-    background-color:#754ef9;
+/* .three{
+    background-color: #754ef9;
+    padding: 10px;
+     border: solid 10px #754ef9 ; 
     border-radius: 50%;
-    width: 140px;
-    height: 140px;
-}
+     width: 100px;
+    height: 100px; 
+}  */
 
 
  .main-head{
-display: flex;
-  
-    
+display: flex; 
  }
 
+ .creative-section{
+  background-color: #754ef9;
+ }
 .creative{
-   margin: auto;
-    background-color: #754ef9;
+  margin: auto;
+    
 color: white;
+padding-left: 50px; 
     }
 
 .download-btn {
   background-color: #754ef9;
   color: white;
   border: none;
-   padding-left: 5px; 
+   min-width: 100px;
+   max-width: 300px; 
   font-size: 10px;
-  
+  padding: 3px;
   border-radius: 20px;
   cursor: pointer;
-  margin: 2px;
+ 
+  font-family: 'Times New Roman', Times, serif;
   transition: background-color 0.3s ease;
 }
 
@@ -92,15 +97,15 @@ color: white;
 }
 
 .Navbar {
-     margin-left: 90%;  
+ margin-left:0%;
      display: flex;
 }
 .links{
-  padding-left: 80%;
+  padding-left: 0%;
 }
 .lists {
     list-style: none;
-    margin: 0;
+    margin-left: 170%;
     padding: 0;
   display:inline-flex;  
      gap: 50px;  
@@ -110,7 +115,7 @@ color: white;
     color: black;
     font-size: 15px;
     transition: color 0.3s ease;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 } 
 
  .content:hover {
@@ -121,7 +126,7 @@ color: white;
 .fellow-page {
     position: absolute;
     right: 4px;
-    top: 15%;
+    top: 25%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -143,7 +148,7 @@ color: white;
 }
 
 .fellow .icon i {
-    font-size: 6px;
+    font-size: 8px;
     color: #333;
     transition: color 0.3s;
     cursor: pointer;
@@ -153,27 +158,34 @@ color: white;
     color: #007bff; 
 }
 .my-text{
-   padding: 50px;
-  font-size: 15px;
+  margin-top: 50px;
 }
+.my-text h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.my-text p{
+    font-size: 15px;
+}
+
 .txt{
   color: #754ef9;
     
 }
 .social-icon{
  border-radius: 50%;
-  width:40px;
-  height: 40px;
+  width:50px;
+  height: 50px;
   box-shadow: 0px 5px 5px;
   padding:0px;
   font-size: 15px;
   color: #754ef9;
   margin-top: 15px;
-  margin-left: 50px;
+  margin-left: 200px;
 }
 .icon-txt{
   margin-top: 25px;
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 10px;
 }
 .icon{
@@ -181,10 +193,10 @@ color: white;
 }
 
 .creative{
-  font-size: 10px;
+  font-size: 12px;
 }
 .fa-play{
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .main-cards{
@@ -334,9 +346,7 @@ color: white;
     text-align: center;
    
 }
-.txt{
-  color:black;
-}
+
 .hire-container{
    display: flex;
     padding-top: 5%;
