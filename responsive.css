@@ -597,17 +597,13 @@ min-height: 40vh;
     text-align: center;
     font-size: 15px;
 }
-
-
 .images{
     display: block;
     max-width: 80px;
     max-height: 80px;
     border-radius: 50%;
   border: solid 8px #754ef9 ; 
- 
 }
-
 .two{
 margin-top: 5px;
  border: solid 7px #754ef9; 
@@ -616,7 +612,6 @@ position: absolute;
 }
 .main2{
  border: solid 25px white; 
-
 border-radius: 50%; 
 } 
 .fellow-page {
@@ -626,10 +621,6 @@ border-radius: 50%;
 }
 .rotate-text {
     margin-bottom: 40px;
-}
- 
-.txt{
-  color: #754ef9;
 }
 
 .my-text h1{
@@ -643,7 +634,6 @@ border-radius: 50%;
 .my-text{
   max-width: 1000px;
   margin-top: 50px;
-
   padding-left: 10px;
 }
 .creative-p{
@@ -655,11 +645,8 @@ border-radius: 50%;
 .lists {
     margin-left: 5%;
     padding: 0px; 
-    gap: 85%;  
-  
-       
+    gap: 85%;       
 }
- 
 .main-cards{
     gap: 4px;
     margin: 8%;
